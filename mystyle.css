@@ -1,9 +1,9 @@
-		.background {
-			background-color: #808080;
-			color: white;
-			margin: 30px;
-			padding: 30px;
-		}
+.background {
+	background-color: #808080;
+	color: white;
+	margin: 30px;
+	padding: 30px;
+}
 body{
 	font-size: 30px;
 }
