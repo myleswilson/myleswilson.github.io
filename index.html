@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<html>
+
+<!--
+Written by: Myles Wilson
+Year: 2019
+
+This is the HTML code for my website.
+Feel free to take a look around to get some ideas!
+Hopefully these comments are useful...
+...Because comments in HTML are not very fun.
+
+Credit to:
+* https://www.w3schools.com/ (For teaching me random snipets of code.)
+* https://www.google.com/ (For being the God of troubleshooting.)
+* Teachers, mentors, friends, and family. (For other tips, and for being awesome.)
+-->
+
+<html lang="en">
+        
+        <!--
+        Simply adds a title and imports the CSS code.
+        -->
         <head>
                 <title>Myles Wilson</title>
-		<style>
-		.background {
-			background-color: grey;
-			color: white;
-			margin: 30px;
-			padding: 30px;
-		}
-		</style>
+        <link rel="stylesheet" href="mystyle.css">
 	</head>
-        <body>
-		<div class="background">
-			<h1>Myles Wilson</h1>
-		</div>
-		<div>
-			<h2>Last updated: 07/17/2019</h2>
-		</div>
-		<div>
-			<p>It will be updated again soon!</p>
-		</div>
-		<div>
-			<button onclick="window.location.href = 'http://mylesw.com';">Other Website</button>
-		</div>
+        <body class="font">
+            
+            <!--
+            Code for the background image.
+            Check the CSS for more info.
+            -->
+            <div class="image"></div>
+            
+            <div class="text">    
+                
+                <!--
+                Code for the text and text border.
+                Check the CSS for more info.
+                -->
+                <h1 id="background">MYLES WILSON</h1>
+		    	<h2>Last Updated: 07/18/2019</h2>
+			    <p>GitHub</p>
+                
+                <!--
+                This is a button that links to another website.
+                -->
+                <a href="https://github.com/myleswilson">
+                        <img src="GitHub.png" alt="My GitHub">
+                </a>
+		    </div>
         </body>
+        <script src="myscripts.js"></script>
 </html>
