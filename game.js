@@ -1,6 +1,5 @@
 //Fake counter that begins the game.
 var i = 0;
-var done = 0;
 
 function load(){
 	setTimeout(function(){
