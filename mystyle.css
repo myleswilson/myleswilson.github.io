@@ -55,7 +55,7 @@ body, html {
 /*
  * Code for a better looking button.
  * Because the HTML one isn't amazing.
- * Disabled for the time being. (Commented out.)
+ */
 .button {
         background-color: rgb(0,0,0, 0.6);
         color: white;
@@ -63,7 +63,6 @@ body, html {
         display: inline-block;
         padding: 15px 32px;
 }
-*/
 
 /*
  * Sets the font to Arial.
