@@ -14,7 +14,7 @@ body, html {
  */
 .image {
         background-image: url("Hill.jpg");
-        
+
         /*
          * Blurs the background image.
          */
@@ -26,11 +26,11 @@ body, html {
          */
         height: 200%;
         width: 200%;
-        
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
+
 }
 
 /*
@@ -72,6 +72,15 @@ body, html {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
         font-weight: bold;
+}
+
+/*
+ * Code for the blog images.
+ * Simply resizes them.
+ */
+.size {
+        max-width: 5%;
+        max-height: 5%;
 }
 
 
